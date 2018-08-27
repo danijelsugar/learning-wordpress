@@ -1,0 +1,46 @@
+/*Carousel on home page*/
+.carousel-inner .carousel-item {
+	height: 300px;
+	overflow: hidden;
+	width: 100%;
+}
+.carousel-inner .carousel-item img {
+	width: 100%;
+}
+.carousel-caption a, {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Blog page*/
+.blog-element {
+	display: block;
+	height: 200px;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.blog-element a {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.second-row-padding:nth-child(2) {
+	padding-right: 0;
+}
+.second-row-padding:nth-child(3) {
+	padding-left: 0;
+}
+.third-row-padding {
+	padding: 0;
+}
+.third-row-padding:nth-child(4) {
+	padding-left: 15px;
+}
+.third-row-padding:last-child {
+	padding-right: 15px;
+}
+
+.pull-right {
+	float: right;
+}
